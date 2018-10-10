@@ -19,7 +19,7 @@ class Dog
     @@all = []
   end 
   
-  def name 
+  def self.name 
     @name 
   end 
   
