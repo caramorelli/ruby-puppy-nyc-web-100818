@@ -8,10 +8,7 @@ class Dog
     @name = name
     @@all << self
   end 
-  
-  def new 
-   @@all << name
-  end 
+
   
   def all 
     @@all.each do |dog_name|
